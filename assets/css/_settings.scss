@@ -15,7 +15,7 @@
 
 // We use these to control various global styles
    $body-bg: #fff;
-   $body-font-color: #373737;
+   $body-font-color: #373737; //dark grey
    $body-font-family: "Bembo Book W02", serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
@@ -27,10 +27,10 @@
 // $text-direction: ltr;
 
 // We use these as default colors throughout
-   $primary-color: #00B140;
-   $secondary-color: #F1F1F1;
+   $primary-color: #00B140; //bright green
+   $secondary-color: #F1F1F1; //light grey
 // $alert-color: #c60f13;
-   $success-color: #00B140;
+   $success-color: #00B140; //bright green
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;

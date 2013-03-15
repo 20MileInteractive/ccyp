@@ -3763,14 +3763,11 @@ h1, h2, h3, h4 {
 h3, h4, h5, h6 {
   font-family: "AvenirNextLTW02-Regular", sans-serif; }
 
+h1, h3, h4, h5 {
+  color: #003057; }
+
 h2, h6 {
   color: #41b6e6; }
-
-.style-title {
-  padding: 1em;
-  font-size: 1em;
-  background: #f1f1f1;
-  margin-bottom: 2em; }
 
 p.intro {
   font-size: 1.5em;
@@ -3782,28 +3779,22 @@ blockquote {
   font-size: 1.625em;
   line-height: 1.5em;
   margin-bottom: 1em;
+  color: #41b6e6;
   font-family: "AvenirNextLTW02-Regular", sans-serif; }
 
-/* Style Guide styles */
-header {
-  background: #000;
-  padding: 1em; }
-
-header h1 {
+blockquote cite {
   font-size: 1em;
-  color: #fff; }
+  color: #cccccc; }
 
-header h1 span {
-  color: #ccc; }
-
-table.styles th {
-  width: 8em;
-  background: #f1f1f1;
-  color: #493B2F;
-  vertical-align: top;
+.style-title {
   padding: 1em;
-  font-weight: 400;
   font-size: 1em;
+  background: #f1f1f1;
+  margin-bottom: 2em; }
+
+.style-subtitle {
+  font-size: 1em;
+  color: #cccccc;
   text-align: right; }
 
 .style-info {
@@ -3831,6 +3822,41 @@ table.styles th {
 div.typography {
   max-width: 480px; }
 
+.color-styles ul.colors {
+  overflow: hidden;
+  list-style-type: none; }
+
+.color-styles ul.colors li {
+  display: block;
+  padding: 1em;
+  line-height: 1.5em;
+  color: #fff;
+  list-style-type: none;
+  font-family: "Avenir Next LT W02 Demi", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+.color-styles ul.accents li {
+  padding: 1em;
+  width: 3em;
+  float: left; }
+
+.neutral-one {
+  background: #f1f1f1; }
+
+.neutral-two {
+  background: #373737; }
+
+.accent-one {
+  background: #003057; }
+
+.accent-two {
+  background: #41b6e6; }
+
+.accent-three {
+  background: #f1b434; }
+
+.action-one {
+  background: #00b140; }
+
 figure {
   background: #F4EFEA;
   margin-bottom: 1em;
@@ -3841,3 +3867,10 @@ figcaption {
   font-size: .875em;
   padding: .5em;
   color: #493B2F; }
+
+footer {
+  margin-bottom: 10em; }
+
+footer p {
+  font-size: 0.6875em;
+  text-align: center; }

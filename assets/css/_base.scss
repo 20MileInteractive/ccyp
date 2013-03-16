@@ -36,7 +36,8 @@ span.postfix,
 input[type="text"], 
 select, 
 .button,
-textarea {
+textarea,
+.f-dropdown li a {
 	font-family: $secondary-headline-font;
 	font-size: 1em;
 	}

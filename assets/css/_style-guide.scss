@@ -41,9 +41,10 @@ div.typography {max-width: 480px;}
 	color: #fff;
 	list-style-type: none;
 	font-family: $header-font-family;
+	text-align: center;
 }
 
-.color-styles ul.accents li {
+.color-styles ul.accents li, .color-styles ul.actions li {
 	padding: 1em;
 	width: 3em;
 	float: left;}

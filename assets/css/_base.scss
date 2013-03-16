@@ -23,3 +23,10 @@ blockquote {
 }
 
 blockquote cite {font-size:1em; color:$grey-two;}
+
+
+//Forms
+span.prefix, span.postfix, input[type="text"], select, .button {
+	font-family: $secondary-headline-font;
+	font-size: 1em;
+	}

@@ -3786,9 +3786,20 @@ blockquote cite {
   font-size: 1em;
   color: #cccccc; }
 
-span.prefix, span.postfix, input[type="text"], select, .button {
+section {
+  border-bottom: 10px solid #f1f1f1; }
+
+span.prefix,
+span.postfix,
+input[type="text"],
+select,
+.button,
+textarea {
   font-family: "AvenirNextLTW02-Regular", sans-serif;
   font-size: 1em; }
+
+.style-guide section {
+  padding: 1em 0; }
 
 .style-title {
   padding: 1em;
@@ -3799,7 +3810,8 @@ span.prefix, span.postfix, input[type="text"], select, .button {
 .style-subtitle {
   font-size: 1em;
   color: #cccccc;
-  text-align: right; }
+  /*text-align: right;*/
+  margin-bottom: 1em; }
 
 .style-info {
   background: #f1f1f1;
@@ -3862,6 +3874,9 @@ div.typography {
 .action-one {
   background: #00b140; }
 
+.icons img {
+  margin-right: 2em; }
+
 figure {
   background: #F4EFEA;
   margin-bottom: 1em;
@@ -3874,8 +3889,9 @@ figcaption {
   color: #493B2F; }
 
 footer {
-  margin-bottom: 10em; }
+  margin: 5em 0 10em; }
 
 footer p {
   font-size: 0.6875em;
-  text-align: center; }
+  text-align: center;
+  font-family: "Avenir Next LT W02 Demi", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }

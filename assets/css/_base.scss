@@ -24,9 +24,17 @@ blockquote {
 
 blockquote cite {font-size:1em; color:$grey-two;}
 
+section {
+	border-bottom: 10px solid $grey-one;
+}
 
 //Forms
-span.prefix, span.postfix, input[type="text"], select, .button {
+span.prefix, 
+span.postfix, 
+input[type="text"], 
+select, 
+.button,
+textarea {
 	font-family: $secondary-headline-font;
 	font-size: 1em;
 	}

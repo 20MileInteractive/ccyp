@@ -1,3 +1,6 @@
+.style-guide section {
+	padding: 1em 0;}
+
 .style-title {
 	padding: 1em;
 	font-size: 1em;
@@ -8,7 +11,8 @@
 .style-subtitle {
 	font-size: 1em;
 	color: $grey-two;
-	text-align: right;
+	/*text-align: right;*/
+	margin-bottom: 1em;
 }
 
 .style-info {	
@@ -59,6 +63,7 @@ div.typography {max-width: 480px;}
 .action-one {background: $primary-color;} //green
 
 
+.icons img {margin-right: 2em;}
 
 figure {background: #F4EFEA; margin-bottom: 1em; width: 576px;}
 figcaption {
@@ -68,7 +73,7 @@ figcaption {
 
 
 footer {
-	margin-bottom: 10em;
+	margin: 5em 0 10em;
 }
 
-footer p {font-size: emCalc(11px); text-align: center;}
+footer p {font-size: emCalc(11px); text-align: center; font-family: $header-font-family;}

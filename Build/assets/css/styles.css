@@ -3789,6 +3789,9 @@ blockquote cite {
 section {
   border-bottom: 10px solid #f1f1f1; }
 
+th, td {
+  font-family: "AvenirNextLTW02-Regular", sans-serif; }
+
 span.prefix,
 span.postfix,
 input[type="text"],

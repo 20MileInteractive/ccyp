@@ -1218,7 +1218,7 @@ blockquote p {
   border-width: 1px;
   cursor: pointer;
   font-family: inherit;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1;
   margin: 0 0 1.25em;
   position: relative;
@@ -1424,7 +1424,7 @@ label {
     text-align: right; }
   label.inline {
     margin: 0 0 1em 0;
-    padding: 0.625em 0; }
+    padding: 0.75em 0; }
 
 /* Attach elements to the beginning or end of an input */
 .prefix,
@@ -1437,7 +1437,7 @@ label {
   padding-top: 0;
   padding-bottom: 0;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   overflow: hidden;
   font-size: 0.875em;
   height: 2.3125em;
@@ -1502,8 +1502,8 @@ label {
 
 /* Separate prefix and postfix styles when on span so buttons keep their own */
 span.prefix {
-  background: #f2f2f2;
-  border-color: #d9d9d9;
+  background: #e4e4e4;
+  border-color: #cbcbcb;
   border-right: none;
   color: #333333; }
   span.prefix.radius {
@@ -1517,8 +1517,8 @@ span.prefix {
     border-top-left-radius: 3px; }
 
 span.postfix {
-  background: #f2f2f2;
-  border-color: #cccccc;
+  background: #e4e4e4;
+  border-color: #bebebe;
   border-left: none;
   color: #333333; }
   span.postfix.radius {
@@ -1584,14 +1584,14 @@ input[type="tel"],
 input[type="time"],
 input[type="url"],
 textarea {
-  background-color: white;
+  background-color: #f1f1f1;
   font-family: inherit;
-  border: 1px solid #cccccc;
+  border: 2px solid #cccccc;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
-  font-size: 0.875em;
+  font-size: 1em;
   margin: 0 0 1em 0;
   padding: 0.5em;
   height: 2.3125em;
@@ -1617,7 +1617,7 @@ textarea {
   input[type="url"]:focus,
   textarea:focus {
     background: #fafafa;
-    border-color: #999999;
+    border-color: #00b140;
     outline: none; }
   input[type="text"][disabled],
   input[type="password"][disabled],
@@ -1659,7 +1659,7 @@ textarea.error {
   .error textarea:focus,
   textarea.error:focus {
     background: #fafafa;
-    border-color: #999999; }
+    border-color: #00b140; }
 
 .error label,
 label.error {
@@ -1818,7 +1818,7 @@ form.custom {
     width: auto;
     display: none;
     margin: 0;
-    left: -1px;
+    left: -2px;
     top: auto;
     -webkit-box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.1);
@@ -3763,6 +3763,9 @@ h1, h2, h3, h4 {
 h3, h4, h5, h6 {
   font-family: "AvenirNextLTW02-Regular", sans-serif; }
 
+h1, h3, h4, h5 {
+  color: #003057; }
+
 h2, h6 {
   color: #41b6e6; }
 
@@ -3776,29 +3779,39 @@ blockquote {
   font-size: 1.625em;
   line-height: 1.5em;
   margin-bottom: 1em;
+  color: #41b6e6;
   font-family: "AvenirNextLTW02-Regular", sans-serif; }
 
-/* Style Guide styles */
-header {
-  background: #000;
-  padding: 1em; }
-
-header h1 {
+blockquote cite {
   font-size: 1em;
-  color: #fff; }
+  color: #cccccc; }
 
-header h1 span {
-  color: #ccc; }
+section {
+  border-bottom: 10px solid #f1f1f1; }
 
-table.styles th {
-  width: 8em;
-  background: #f1f1f1;
-  color: #493B2F;
-  vertical-align: top;
+span.prefix,
+span.postfix,
+input[type="text"],
+select,
+.button,
+textarea {
+  font-family: "AvenirNextLTW02-Regular", sans-serif;
+  font-size: 1em; }
+
+.style-guide section {
+  padding: 1em 0; }
+
+.style-title {
   padding: 1em;
-  font-weight: 400;
   font-size: 1em;
-  text-align: right; }
+  background: #f1f1f1;
+  margin-bottom: 2em; }
+
+.style-subtitle {
+  font-size: 1em;
+  color: #cccccc;
+  /*text-align: right;*/
+  margin-bottom: 1em; }
 
 .style-info {
   background: #f1f1f1;
@@ -3825,6 +3838,45 @@ table.styles th {
 div.typography {
   max-width: 480px; }
 
+.color-styles ul.colors {
+  overflow: hidden;
+  list-style-type: none; }
+
+.color-styles ul.colors li {
+  display: block;
+  padding: 1em;
+  line-height: 1.5em;
+  color: #fff;
+  list-style-type: none;
+  font-family: "Avenir Next LT W02 Demi", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+.color-styles ul.accents li, .color-styles ul.actions li {
+  padding: 1em;
+  width: 3em;
+  float: left; }
+
+.neutral-one {
+  background: #f1f1f1; }
+
+.neutral-two {
+  background: #373737; }
+
+.accent-one {
+  background: #003057; }
+
+.accent-two {
+  background: #41b6e6; }
+
+.accent-three {
+  background: #f1b434; }
+
+.action-one {
+  background: #00b140; }
+
+.icons img {
+  margin-right: 2em; }
+
 figure {
   background: #F4EFEA;
   margin-bottom: 1em;
@@ -3835,3 +3887,11 @@ figcaption {
   font-size: .875em;
   padding: .5em;
   color: #493B2F; }
+
+footer {
+  margin: 5em 0 10em; }
+
+footer p {
+  font-size: 0.6875em;
+  text-align: center;
+  font-family: "Avenir Next LT W02 Demi", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }

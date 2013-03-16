@@ -1,0 +1,40 @@
+//Typography
+
+h1, h2, h3, h4 {text-transform: uppercase;}
+
+h3, h4, h5, h6 {font-family: $secondary-headline-font;}
+
+h1, h3, h4, h5 {color: $color-four;}
+h2, h6 {color: $color-three;}
+
+p.intro {
+	font-size: 1.5em;
+	color: $grey-three;
+	font-family: $secondary-headline-font;
+	margin-bottom: 1.5em;
+}
+
+blockquote {
+	font-size: 1.625em;
+	line-height: 1.5em;
+	margin-bottom: 1em;
+	color: $color-three;
+	font-family: $secondary-headline-font;
+}
+
+blockquote cite {font-size:1em; color:$grey-two;}
+
+section {
+	border-bottom: 10px solid $grey-one;
+}
+
+//Forms
+span.prefix, 
+span.postfix, 
+input[type="text"], 
+select, 
+.button,
+textarea {
+	font-family: $secondary-headline-font;
+	font-size: 1em;
+	}

@@ -1,0 +1,79 @@
+.style-guide section {
+	padding: 1em 0;}
+
+.style-title {
+	padding: 1em;
+	font-size: 1em;
+	background: $secondary-color;
+	margin-bottom: 2em;
+}
+
+.style-subtitle {
+	font-size: 1em;
+	color: $grey-two;
+	/*text-align: right;*/
+	margin-bottom: 1em;
+}
+
+.style-info {	
+	background: #f1f1f1; 
+	overflow: hidden; 
+	display: block; 
+	padding: .5em;
+	margin-bottom: 2em;
+	color: #333; 
+	font-family: Arial;}
+.style-info dt, .style-info dd {
+	float: left; 
+	 padding: 0;
+	display: block;
+	margin: 0;}
+.style-info dt {margin-right: .5em; font-weight: normal;}
+.style-info dd {margin-right: 1.5em;}
+
+div.typography {max-width: 480px;}
+
+.color-styles ul.colors {
+	overflow: hidden;
+	list-style-type: none;
+}
+
+.color-styles ul.colors li {
+	display: block;
+	padding: 1em;
+	line-height: 1.5em;
+	color: #fff;
+	list-style-type: none;
+	font-family: $header-font-family;
+	text-align: center;
+}
+
+.color-styles ul.accents li, .color-styles ul.actions li {
+	padding: 1em;
+	width: 3em;
+	float: left;}
+
+.neutral-one {background: $grey-one;}
+.neutral-two {background: $body-font-color;}
+
+.accent-one {background: $color-four;} //dark blue
+.accent-two {background: $color-three;} //light blue
+.accent-three {background: $color-five;} //yellow
+
+.action-one {background: $primary-color;} //green
+
+
+.icons img {margin-right: 2em;}
+
+figure {background: #F4EFEA; margin-bottom: 1em; width: 576px;}
+figcaption {
+	font-family: open-sans; font-size: .875em;
+	padding: .5em;
+	color: #493B2F;}
+
+
+footer {
+	margin: 5em 0 10em;
+}
+
+footer p {font-size: emCalc(11px); text-align: center; font-family: $header-font-family;}

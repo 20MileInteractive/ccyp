@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cape Cod Young Professionals | Style Guide</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+  <script type="text/javascript">var __tcaExcludeHostedCss=true;</script>
+  <script type="text/javascript" src="http://typecast.com/project_css/PzngqYdJy8/62029c93ed074.js"></script>
+
+</head>
+<body>
+
+<header>
+<h1>Style Guide</h1>
+</header>
+<article>
+<section>
+<!-- insert typecast stuff here -->
+<table class="styles">
+<tr><th>Logo</th><td><img src="assets/img/logo.png" alt="logo" width="" height="" /></td></tr>
+<tr class="type">
+<th>Typography</th>
+<td>
+<dl class="style-info"><dt>Headline Font: </dt> <dd>Avenir Next</dd></dl>
+<div class="typography">
+      <h1>This is a headline</h1>
+
+      <h2>Furnish the Outdoor Living Space of your Dreams</h2>
+
+      <h3>This is the Abril typeface</h3>
+
+      <h4>Heading four</h4>
+
+      <h5>Heading Five</h5>
+
+      <h6>Heading Six</h6>
+
+<dl class="style-info"><dt>Body font: </dt> <dd>Bembo</dd></dl>
+      <p class="intro">An introductory paragraph is a great way to summarise the content before the reader really digs into the detail of your story. With a .intro class attached, this special paragraph can have a unique text size while inheriting its other attributes from it's parent.</p>
+
+      <p>This is a paragraph, which will probably be the most common element on your site. It's likely that the vertical rhythm of your site will be largely determined by the line-height of your paragraph.&nbsp;</p>
+
+      <p>Content can contain inline styles such as <a href="#">hyperlinks</a>. It's likely that the <strong>vertical rhythm</strong>
+
+       of your site will be largely determined by the line-height of your <em>paragraph</em>.</p>
+
+      <blockquote>This is a blockquote, an element that represents a section that is being quoted from another source.</blockquote>
+    </div>
+
+</td>
+</tr>
+
+<tr>
+  <th>Color Palette</th>
+  <td>
+    <div class="style-info">Background</div>
+    <ul class="primary colors">
+      <li class="color1">1</li>
+    </ul>
+    <div class="style-info">Accent</div>
+    <ul class="secondary colors">
+      <li class="color2">2</li>
+      <li class="color3">3</li>
+      <li class="color4">4</li>
+      <li class="color5">5</li>
+      <li class="color6">6</li>
+      <li class="color7">7</li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr>
+  <th>Backgrounds, Patterns & Textures</th>
+  <td>
+    <ul class="backgrounds">
+      <li class="background2">Light background</li>
+      <li class="background1">Dark background</li>
+      
+      <li class="background3">Pattern background 1</li>
+      <li class="background4">Pattern background 2</li>
+    </ul>
+  </td>
+</tr>
+
+
+<tr>
+  <th>Form Elements</th>
+  <td>
+    <form>
+      <div><label>Text input</label> <input type="text"></div>      
+      <div><label>Drop-down</label> 
+        <select>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+        </select>
+        </div>
+      <div><textarea></textarea></div>
+      <div><input type="submit" value="Button"></div>
+    </form>
+    
+  </td>
+</tr>
+
+<tr>
+  <th>Icons</th>
+  <td><img src="cart.png" alt="cart" width="" height="" /></td>
+</tr>
+
+<tr>
+  <th>Photos &amp; Captions</th>
+  <td>
+  <figure>
+  <img src="http://www.arrowheadnursery.com/Resources/KB-nantucket-chaise_moo-sb_KBnantucketchaise46_19_moo1-1p3_.jpg"/>
+    <figcaption>This is a sample caption</figcaption>
+  </figure>
+  </td>
+</tr>
+
+</table>
+</section>
+
+</article>
+
+
+  </footer>
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.forms.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.section.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/vendor/foundation/foundation.topbar.js'></script>
+	<script src='assets/js/script.js'></script>
+
+</body>
+</html>

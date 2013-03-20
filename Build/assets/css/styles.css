@@ -15,7 +15,7 @@ body {
   color: #373737;
   padding: 0;
   margin: 0;
-  font-family: "Bembo Book W02", serif;
+  font-family: "AvenirNextLTW02-Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -3769,7 +3769,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase; }
 
 h3, h4, h5, h6 {
-  font-family: "AvenirNextLTW02-Regular", sans-serif; }
+  font-family: "AvenirNextLTW02-Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 h1, h3, h4, h5 {
   color: #003057; }
@@ -3780,7 +3780,7 @@ h2, h6 {
 p.intro {
   font-size: 1.125em;
   color: #373737;
-  font-family: "AvenirNextLTW02-Regular", sans-serif;
+  font-family: "AvenirNextLTW02-Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   margin-bottom: 1.5em; }
 
 blockquote {
@@ -3788,7 +3788,7 @@ blockquote {
   line-height: 1.5em;
   margin-bottom: 1em;
   color: #41b6e6;
-  font-family: "AvenirNextLTW02-Regular", sans-serif; }
+  font-family: "AvenirNextLTW02-Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 blockquote cite {
   font-size: 1em;
@@ -3798,7 +3798,7 @@ section {
   border-bottom: 0.625em solid #f1f1f1; }
 
 th, td {
-  font-family: "AvenirNextLTW02-Regular", sans-serif; }
+  font-family: "AvenirNextLTW02-Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
 span.prefix,
 span.postfix,
@@ -3807,7 +3807,7 @@ select,
 .button,
 textarea,
 .f-dropdown li a {
-  font-family: "AvenirNextLTW02-Regular", sans-serif;
+  font-family: "AvenirNextLTW02-Regular", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1em; }
 
 .style-guide section {
